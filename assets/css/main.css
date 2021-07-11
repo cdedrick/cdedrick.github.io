@@ -3246,9 +3246,6 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
 			opacity: 0;
-			display: inline;
-			vertical-align: middle;
-			color: #636363;
 		}
 
 		#nav blockquote {
@@ -3269,10 +3266,12 @@ input, select, textarea {
 		}
 
 		#nav ul {
-			-moz-transition: float 0.2s ease;
-			-webkit-transition: float 0.2s ease;
-			-ms-transition: float 0.2s ease;
-			transition: float 0.2s ease;
+			-moz-transition: right 0.2s ease;
+			-webkit-transition: right 0.2s ease;
+			-ms-transition: right 0.2s ease;
+			transition: right 0.2s ease;
+			right: 50%;
+			transform: translate(50%, 0);
 			margin: 0;
 			padding: 0;
 			list-style: none;
@@ -3329,7 +3328,7 @@ input, select, textarea {
 			}
 		
 			#nat.alt ul{
-				float:right;
+				right: 0;
 			}
 				#nav.alt ul li {
 					margin: 0 0.175em;
