@@ -3225,7 +3225,6 @@ input, select, textarea {
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
-		text-align: center;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3265,6 +3264,7 @@ input, select, textarea {
 			margin: 0;
 			padding: 0;
 			list-style: none;
+			text-align: center;
 		}
 
 			#nav ul li {
