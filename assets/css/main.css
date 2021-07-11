@@ -3266,9 +3266,7 @@ input, select, textarea {
 			padding-top: 4.25em;
 		}
 
-		#nav ul {			
-			right:50%;
-			transform: translate(50%, 0); 
+		#nav ul { 
 			margin: 0;
 			padding: 0;
 			list-style: none;
