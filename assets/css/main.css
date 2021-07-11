@@ -3224,6 +3224,7 @@ input, select, textarea {
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
+		text-align: center;
 		cursor: default;
 	}
 
@@ -3268,10 +3269,13 @@ input, select, textarea {
 		}
 
 		#nav ul {
+			-moz-transition: float 0.2s ease;
+			-webkit-transition: float 0.2s ease;
+			-ms-transition: float 0.2s ease;
+			transition: float 0.2s ease;
 			margin: 0;
 			padding: 0;
 			list-style: none;
-			text-align: right;
 			display: inline;
 		}
 
@@ -3317,6 +3321,7 @@ input, select, textarea {
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
+			float: right;
 		}
 
 			#nav.alt h1, #nav.alt h2, #nav.alt h3, #nav.alt h4, #nav.alt h5, #nav.alt h6 {
