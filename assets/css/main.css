@@ -3266,17 +3266,11 @@ input, select, textarea {
 		}
 
 		#nav ul {
-			-moz-transition: right 0.2s ease;
-			-webkit-transition: right 0.2s ease;
-			-ms-transition: right 0.2s ease;
-			transition: right 0.2s ease;
-			right: 50%;
-			transform: translate(50%, 0);
 			margin: 0;
 			padding: 0;
 			list-style: none;
 			display: inline;
-			float: center;
+			float: none;
 		}
 
 			#nav ul li {
@@ -3328,7 +3322,7 @@ input, select, textarea {
 			}
 		
 			#nat.alt ul{
-				right: 0;
+				float:right;
 			}
 				#nav.alt ul li {
 					margin: 0 0.175em;
