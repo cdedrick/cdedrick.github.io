@@ -3316,26 +3316,28 @@ input, select, textarea {
 
 		#nav.alt {
 			position: fixed;
-			top: 0;
+			top: 0; 
 			padding: 0.5em 1em;
 			background-color: rgba(247, 247, 247, 0.95);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
-			float: right;
 		}
 
 			#nav.alt h1, #nav.alt h2, #nav.alt h3, #nav.alt h4, #nav.alt h5, #nav.alt h6 {
-			opacity: 1;
-		}
-			
-			#nav.alt ul li {
-				margin: 0 0.175em;
+				opacity: 1;
 			}
-
-				#nav.alt ul li a {
-					font-size: 0.9em;
+		
+			#nat.alt ul{
+				float:right;
+			}
+				#nav.alt ul li {
+					margin: 0 0.175em;
 				}
+	
+					#nav.alt ul li a {
+						font-size: 0.9em;
+					}
 
 		@media screen and (max-width: 736px) {
 
