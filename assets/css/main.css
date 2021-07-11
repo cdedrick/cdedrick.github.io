@@ -3277,6 +3277,7 @@ input, select, textarea {
 			padding: 0;
 			list-style: none;
 			display: inline;
+			float: center;
 		}
 
 			#nav ul li {
