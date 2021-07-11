@@ -3240,6 +3240,11 @@ input, select, textarea {
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
+			moz-transition: opacity 0.2s ease;
+			-webkit-transition: opacity 0.2s ease;
+			-ms-transition: opacity 0.2s ease;
+			transition: opacity 0.2s ease;
+			opacity: 0;
 			display: inline;
 			vertical-align: middle;
 			color: #636363;
@@ -3314,6 +3319,10 @@ input, select, textarea {
 			z-index: 10000;
 		}
 
+			#nav.alt h1, #nav.alt h2, #nav.alt h3, #nav.alt h4, #nav.alt h5, #nav.alt h6 {
+			opacity: 1;
+		}
+			
 			#nav.alt ul li {
 				margin: 0 0.175em;
 			}
